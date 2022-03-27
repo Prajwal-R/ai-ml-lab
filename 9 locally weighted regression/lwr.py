@@ -1,6 +1,6 @@
 import matplotlib.pyplot as plt
 from scipy.interpolate import interp1d
-import statsmodels.api as sm
+import statsmodels.api as sm  #might need internet to download library learn with your own risk
 import numpy as np
 import math
 x= np.linspace(0, 2 * math.pi, 100)
